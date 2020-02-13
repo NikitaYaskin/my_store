@@ -97,7 +97,7 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.4.2)
+    sqlite3 (1.3.13)
     thor (1.0.1)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -115,7 +115,7 @@ DEPENDENCIES
   jquery-rails
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
-  sqlite3
+  sqlite3 (~> 1.3.5)
   uglifier (>= 1.0.3)
 
 BUNDLED WITH
