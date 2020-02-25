@@ -1,6 +1,6 @@
 <h1>Items</h1>
 <% if @items.empty? %>
-	<b> No items in store</b>
+	<b>No items in store</b>
 <% else %>
 <table>
 	<tr>
@@ -14,10 +14,9 @@
 		<td><%= i.id %></td>
 		<td><%= link_to i.name, item_path(i) %></td>
 		<td><%= i.price %> $ </td>
-		<td><%= link_to "delete", i, method: :delete, data: {confirm: "Are you sure?"} %></td>
+		<td><%= link_to "Delete", i, method: :delete, data: { confirm: "Are you sure?" } %></td>
 	</tr>
 <% end %>
 
-</table>
-
 <% end %>
+</table>
