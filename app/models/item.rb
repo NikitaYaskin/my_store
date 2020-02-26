@@ -8,4 +8,6 @@ class Item < ActiveRecord::Base
   after_create     {  }
   after_update     {  }
   after_destroy    {  } # Item.destroy
+
+  has_and_belongs_to_many :carts
 end
